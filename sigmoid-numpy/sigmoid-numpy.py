@@ -6,7 +6,7 @@ def sigmoid(x):
     """
     # Write code here
 
-    x = np.asarray(x, dtype=float)
+    x = np.asarray(x, dtype=np.float64)
     return (1/(1+np.exp(-x)))
     
     pass
